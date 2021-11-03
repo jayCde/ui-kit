@@ -1,6 +1,5 @@
 import React from 'react';
-import styles from '../styles/sidenavigation.module.css';
-
+import "../styles/sidenavigation.css"
 //Icon imports
 import {AiOutlineBarChart, AiOutlineTable, AiTwotoneContainer} from 'react-icons/ai';
 import {BiCard, BiJoystickButton, BiMenu, BiNavigation} from 'react-icons/bi';
@@ -15,29 +14,29 @@ import {RiInputMethodLine, RiNotification2Line, RiArrowDropDownLine} from 'react
 const SidenavigationBar = () => {
     return (
         <>
-            <div className={styles.nav}> 
-                <ul className={styles.navItems}>
-                    <button className={styles.navItem}>Avatars<span><CgProfile/></span></button>
-                    <button className={styles.navItem}>Buttons<span><BiJoystickButton/></span></button>
-                    <button className={styles.navItem}>Cards<span><BiCard/></span></button>
-                    <button className={styles.navItem}>Charts<span><AiOutlineBarChart/></span></button>
-                    <button className={styles.navItem}>Containers<span><AiTwotoneContainer/></span></button>
+            <div className="nav"> 
+                <ul className="navItems">
+                    <button className="navItem">Avatars<span><CgProfile/></span></button>
+                    <button className="navItem">Buttons<span><BiJoystickButton/></span></button>
+                    <button className="navItem">Cards<span><BiCard/></span></button>
+                    <button className="navItem">Charts<span><AiOutlineBarChart/></span></button>
+                    <button className="navItem">Containers<span><AiTwotoneContainer/></span></button>
 
-                    <button className={styles.navItem}>Dropdowns<span><RiArrowDropDownLine/></span></button>
-                    <button className={styles.navItem}>Forms<span><CgFormatJustify/></span></button>
+                    <button className="navItem">Dropdowns<span><RiArrowDropDownLine/></span></button>
+                    <button className="navItem">Forms<span><CgFormatJustify/></span></button>
 
-                    <button className={styles.navItem}>Inputs<span><RiInputMethodLine/></span></button>
-                    <button className={styles.navItem}>Menus<span><BiMenu/></span></button>
-                    <button className={styles.navItem}>Modals<span><MdViewModule/></span></button>
+                    <button className="navItem">Inputs<span><RiInputMethodLine/></span></button>
+                    <button className="navItem">Menus<span><BiMenu/></span></button>
+                    <button className="navItem">Modals<span><MdViewModule/></span></button>
 
-                    <button className={styles.navItem}>Navigations<span><BiNavigation/></span></button>
-                    <button className={styles.navItem}>Notifications<span><RiNotification2Line/></span></button>
-                    <button className={styles.navItem}>Pagination<span><FaSortNumericUp/></span></button>
+                    <button className="navItem">Navigations<span><BiNavigation/></span></button>
+                    <button className="navItem">Notifications<span><RiNotification2Line/></span></button>
+                    <button className="navItem">Pagination<span><FaSortNumericUp/></span></button>
 
-                    <button className={styles.navItem}>Progress<span><GrInProgress/></span></button>
-                    <button className={styles.navItem}>Scrolls<span><CgScrollV/> <CgScrollH/></span></button>
-                    <button className={styles.navItem}>Spinners<span><FaSpinner/></span></button>
-                    <button className={styles.navItem}>Tables<span><AiOutlineTable/></span></button>
+                    <button className="navItem">Progress<span><GrInProgress/></span></button>
+                    <button className="navItem">Scrolls<span><CgScrollV/> <CgScrollH/></span></button>
+                    <button className="navItem">Spinners<span><FaSpinner/></span></button>
+                    <button className="navItem">Tables<span><AiOutlineTable/></span></button>
 
                 </ul>
             </div>
