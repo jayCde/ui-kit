@@ -1,3 +1,16 @@
+/*Main colors*/
+/**
+    rgb(208, 164, 39) -dark golden yellow
+    rgb(36, 35, 43) - classic black shade
+    rgb(141, 115, 40) - darker golden yellow
+    rgb(72, 71, 89) - glass morph gray
+    #2f2e2c - gray shade
+    wooden brown
+    lemon green
+    white
+
+**/
+
 .nav{
     float: left;
 
@@ -48,7 +61,7 @@
 .navItem:focus,
 .navItem:active{
     color: white;
-    background: #DF265E;
+    background: rgb(220, 166, 5);
 
     transition: 0.5s;
 
