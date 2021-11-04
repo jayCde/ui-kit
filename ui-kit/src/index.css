@@ -34,7 +34,7 @@ a {
 
 ::-webkit-scrollbar-thumb {
   border-radius: 40px thin;
-  background: crimson;
+  background: rgb(141, 115, 40);
 }
 
 ::-webkit-scrollbar-thumb:hover {
