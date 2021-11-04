@@ -11,7 +11,7 @@ import {RiInputMethodLine, RiNotification2Line, RiArrowDropDownLine} from 'react
 
 
 
-const SidenavigationBar = () => {
+const SideNavigation = () => {
     return (
         <>
             <div className="nav"> 
@@ -44,4 +44,4 @@ const SidenavigationBar = () => {
     )
 }
 
-export default SidenavigationBar
+export default SideNavigation
