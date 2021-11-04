@@ -3,10 +3,9 @@ import ReactDOM from "react-dom";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./index.css";
 import App from "./App";
-import test from "./components/test";
+import UiKit from "./components/kit";
 import reportWebVitals from "./reportWebVitals";
 
-const PageLayout = React.lazy(() => import("./components/PageLayout"));
 
 ReactDOM.render(
   <React.StrictMode>
@@ -14,8 +13,7 @@ ReactDOM.render(
       <Router>
         <Switch>
           <Route path="/" exact component={App} />
-          <Router path="/kit" component={PageLayout}></Router>
-          <Route path="/hi" component={test}></Route>
+          <Route path="/kit" component={UiKit}></Route>
         </Switch>
       </Router>
     </Suspense>
