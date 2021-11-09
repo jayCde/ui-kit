@@ -11,14 +11,15 @@
     
     margin: 0 10px 0 0;
     padding: 0 5px 15px 5px;
+    height: 90%;
     width: 80%;
-
-    border: 1px solid black;
     border-radius: 5px;
 }
 
 .layoutItems{
+    position: absolute;
     height: 90%;
+    width: 80%;
     overflow-y: auto;
 
 }
