@@ -11,33 +11,33 @@ import {RiInputMethodLine, RiNotification2Line, RiArrowDropDownLine} from 'react
 
 
 
-const SideNavigation = () => {
+const SideNavigation = ({allRenders}) => {
+
     return (
         <>
             <div className="nav"> 
                 <ul className="navItems">
-                    <button className="navItem">Avatars<span><CgProfile/></span></button>
-                    <button className="navItem">Buttons<span><BiJoystickButton/></span></button>
-                    <button className="navItem">Cards<span><BiCard/></span></button>
-                    <button className="navItem">Charts<span><AiOutlineBarChart/></span></button>
-                    <button className="navItem">Containers<span><AiTwotoneContainer/></span></button>
+                    <button className="navItem" onClick={allRenders.renderAvatars}>Avatars<span><CgProfile/></span></button>
+                    <button className="navItem" onClick={allRenders.renderButtons}>Buttons<span><BiJoystickButton/></span></button>
+                    <button className="navItem" onClick={allRenders.renderCards}>Cards<span><BiCard/></span></button>
+                    <button className="navItem" onClick={allRenders.renderCharts}>Charts<span><AiOutlineBarChart/></span></button>
+                    <button className="navItem" onClick={allRenders.renderContainers}>Containers<span><AiTwotoneContainer/></span></button>
 
-                    <button className="navItem">Dropdowns<span><RiArrowDropDownLine/></span></button>
-                    <button className="navItem">Forms<span><CgFormatJustify/></span></button>
+                    <button className="navItem" onClick={allRenders.renderDropdowns}>Dropdowns<span><RiArrowDropDownLine/></span></button>
+                    <button className="navItem" onClick={allRenders.renderForms}>Forms<span><CgFormatJustify/></span></button>
 
-                    <button className="navItem">Inputs<span><RiInputMethodLine/></span></button>
-                    <button className="navItem">Menus<span><BiMenu/></span></button>
-                    <button className="navItem">Modals<span><MdViewModule/></span></button>
+                    <button className="navItem" onClick={allRenders.renderInputs}>Inputs<span><RiInputMethodLine/></span></button>
+                    <button className="navItem" onClick={allRenders.renderMenus}>Menus<span><BiMenu/></span></button>
+                    <button className="navItem" onClick={allRenders.renderModals}>Modals<span><MdViewModule/></span></button>
 
-                    <button className="navItem">Navigations<span><BiNavigation/></span></button>
-                    <button className="navItem">Notifications<span><RiNotification2Line/></span></button>
-                    <button className="navItem">Pagination<span><FaSortNumericUp/></span></button>
+                    <button className="navItem" onClick={allRenders.renderNavigations}>Navigations<span><BiNavigation/></span></button>
+                    <button className="navItem" onClick={allRenders.renderNotifications}>Notifications<span><RiNotification2Line/></span></button>
+                    <button className="navItem" onClick={allRenders.renderPagination}>Pagination<span><FaSortNumericUp/></span></button>
 
-                    <button className="navItem">Progress<span><GrInProgress/></span></button>
-                    <button className="navItem">Scrolls<span><CgScrollV/> <CgScrollH/></span></button>
-                    <button className="navItem">Spinners<span><FaSpinner/></span></button>
-                    <button className="navItem">Tables<span><AiOutlineTable/></span></button>
-
+                    <button className="navItem" onClick={allRenders.renderProgresses}>Progress<span><GrInProgress/></span></button>
+                    <button className="navItem" onClick={allRenders.renderScrolls}>Scrolls<span><CgScrollV/> <CgScrollH/></span></button>
+                    <button className="navItem" onClick={allRenders.renderSpinners}>Spinners<span><FaSpinner/></span></button>
+                    <button className="navItem" onClick={allRenders.renderTables}>Tables<span><AiOutlineTable/></span></button>
                 </ul>
             </div>
         </>
