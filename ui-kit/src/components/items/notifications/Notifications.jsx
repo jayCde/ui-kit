@@ -2,10 +2,14 @@ import React from "react";
 
 function NotificationsComponent() {
   return (
-    <div>
-      <h4>layout here </h4>
-      <div>Some Notifications here</div>
-    </div>
+    <div className="notificationContainer">
+            <h4 className="notificationHeading">Layout here </h4>
+            <div className="notificationItems">
+                <div className="notificationItem">
+                    Some notifications...
+                </div>
+            </div>
+        </div>
   );
 }
 

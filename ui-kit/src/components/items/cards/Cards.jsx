@@ -2,10 +2,14 @@ import React from "react";
 
 function CardsComponent() {
   return (
-    <div>
-      <h4>layout here </h4>
-      <div>Some Cards here</div>
-    </div>
+    <div className="cardsContainer">
+            <h4 className="cardsHeading">Layout here </h4>
+            <div className="cardItems">
+                <div className="cardItem">
+                    Some cards...
+                </div>
+            </div>
+        </div>
   );
 }
 

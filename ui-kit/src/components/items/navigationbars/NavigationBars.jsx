@@ -2,10 +2,14 @@ import React from "react";
 
 function NavigationBarsComponent() {
   return (
-    <div>
-      <h4>layout here </h4>
-      <div>Some Navigations here</div>
-    </div>
+    <div className="navContainer">
+            <h4 className="navHeading">Layout here </h4>
+            <div className="navigationItems">
+                <div className="navigationItem">
+                    Some navs...
+                </div>
+            </div>
+        </div>
   );
 }
 

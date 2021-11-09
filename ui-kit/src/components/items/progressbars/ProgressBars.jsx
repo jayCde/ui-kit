@@ -2,10 +2,14 @@ import React from "react";
 
 function ProgressBarsComponent() {
   return (
-    <div>
-      <h4>layout here </h4>
-      <div>Some Progress here</div>
-    </div>
+    <div className="progressContainer">
+            <h4 className="progressHeading">Layout here </h4>
+            <div className="progressItems">
+                <div className="progressItem">
+                    Some progresses...
+                </div>
+            </div>
+        </div>
   );
 }
 
