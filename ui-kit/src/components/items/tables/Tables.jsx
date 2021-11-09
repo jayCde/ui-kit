@@ -2,10 +2,14 @@ import React from "react";
 
 function TablesComponent() {
   return (
-    <div>
-      <h4>layout here </h4>
-      <div>Some Tables here</div>
-    </div>
+    <div className="tablesContainer">
+            <h4 className="tablesHeading">Layout here </h4>
+            <div className="tableItems">
+                <div className="tableItem">
+                    Tables here...
+                </div>
+            </div>
+        </div>
   );
 }
 
