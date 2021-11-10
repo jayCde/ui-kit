@@ -1,0 +1,31 @@
+.avatarContainer{
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+.avatarsHeading{}
+
+.avatarItems{
+    padding: 10px;
+}
+
+.avatarItem{
+    margin: 0px 10px 10px 10px;
+    position: relative;
+    float: left;
+    padding: 20px;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.item{
+    display: flex;
+    justify-content: center;
+}
