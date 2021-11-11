@@ -7,37 +7,13 @@ function AvatarsComponent() {
         <div className="avatarContainer">
             <h4 className="avatarHeading">Avatars...</h4>
             <div className="avatarItems">
-                <div className="avatarItem">
-                    <div className="item">
-                        Avatar Here
+                {avatarAssets.map((avatar)=>
+                    <div className="avatarItem" key={avatar.id}>
+                        <div className="item">
+                            {avatar.name}
+                        </div>
                     </div>
-                </div>
-                <div className="avatarItem">
-                    <div className="item">
-                        Avatar Here
-                    </div>
-                </div>
-                <div className="avatarItem">
-                    <div className="item">
-                        Avatar Here
-                    </div>
-                </div>
-                <div className="avatarItem">
-                    <div className="item">
-                        Avatar Here
-                    </div>
-                </div>
-                <div className="avatarItem">
-                    <div className="item">
-                        Avatar Here
-                    </div>
-                </div>
-                <div className="avatarItem">
-                    <div className="item">
-                        Avatar Here
-                    </div>
-                </div>
-                
+                )}
             </div>
         </div>
     )
