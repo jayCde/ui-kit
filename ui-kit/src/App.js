@@ -23,7 +23,10 @@ export default function Home() {
                   <BiPackage/>
                 </span>
           </Link>
-         <footer className="footer"><a href="https://jayCde.com">Powered by {" "} {" "}<span >jayCde</span></a></footer>
+         <footer className="footer">
+          <a href="https://jayCde.com">Powered by {" "} {" "}<span >jayCde</span></a>
+          <Link to="credits">Credits</Link>
+          </footer>
         </div>
       </main>
     </div>
