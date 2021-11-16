@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/layout.css";
 import AvatarsComponent from "./items/avatars/Avatars";
-import ButtonComponent from "./items/buttons/Buttons";
+import ButtonComponent from "./items/button/Button";
 import CardsComponent from "./items/cards/Cards";
 import ChartsComponent from "./items/charts/Charts";
 import ContainersComponent from "./items/Containers/Containers";
@@ -23,7 +23,7 @@ function ItemsLayout({showComponents}) {
     <div className="layoutContainer">
       <div className="layoutItems">
         {showComponents.selectedAvatars && <AvatarsComponent/>}
-        {showComponents.setselectedButtons && <ButtonComponent/>}
+        {showComponents.selectedButtons && <ButtonComponent/>}
         {showComponents.selectedCards && <CardsComponent/>}
         {showComponents.selectedCharts && <ChartsComponent/>}
         {showComponents.selectedContainers && <ContainersComponent/>}
