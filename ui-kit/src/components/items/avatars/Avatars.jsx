@@ -17,9 +17,11 @@ function AvatarsComponent() {
                         <div className="item">
                             <img src={avatar.resource} alt="asset-item"/>
                             {avatar.name}
+                            
                         </div>
                         <button className="snippetBtn"><FaCode/></button>
                     </div>
+                    
                 )}
             </div>
         </div>
