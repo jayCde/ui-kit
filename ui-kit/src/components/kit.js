@@ -6,7 +6,7 @@ function Uikit() {
 
     //Kit state objects
     const [selectedAvatars, setselectedAvatars] = useState(true);
-    const [selectedButtons, setselectedButtons] = useState(false);
+    const [selectedButtons, setSelectedButtons] = useState(false);
     const [selectedCards, setselectedCards] = useState(false);
     const [selectedCharts, setselectedCharts] = useState(false);
     const [selectedContainers, setselectedContainers] = useState(false);
@@ -29,7 +29,7 @@ function Uikit() {
     //Render component functions
     const renderAvatars =() =>{
         setselectedAvatars(true);
-        setselectedButtons(false);
+        setSelectedButtons(false);
         setselectedCards(false);
         setselectedCharts(false);
         setselectedContainers(false);
@@ -47,9 +47,9 @@ function Uikit() {
         setselectedTables(false);
     }
 
-    const renderButtons =()=>{
+    const renderButtons=()=>{
         setselectedAvatars(false);
-        setselectedButtons(true);
+        setSelectedButtons(true);
         setselectedCards(false);
         setselectedCharts(false);
         setselectedContainers(false);
@@ -69,7 +69,7 @@ function Uikit() {
 
     const renderCards =()=>{
         setselectedAvatars(false);
-        setselectedButtons(false);
+        setSelectedButtons(false);
         setselectedCards(true);
         setselectedCharts(false);
         setselectedContainers(false);
@@ -89,7 +89,7 @@ function Uikit() {
 
     const renderCharts =()=>{
         setselectedAvatars(false);
-        setselectedButtons(false);
+        setSelectedButtons(false);
         setselectedCards(false);
         setselectedCharts(true);
         setselectedContainers(false);
@@ -109,7 +109,7 @@ function Uikit() {
 
     const renderContainers =()=>{
         setselectedAvatars(false);
-        setselectedButtons(false);
+        setSelectedButtons(false);
         setselectedCards(false);
         setselectedCharts(false);
         setselectedContainers(true);
@@ -129,7 +129,7 @@ function Uikit() {
 
     const renderDropdowns =()=>{
         setselectedAvatars(false);
-        setselectedButtons(false);
+        setSelectedButtons(false);
         setselectedCards(false);
         setselectedCharts(false);
         setselectedContainers(false);
@@ -149,7 +149,7 @@ function Uikit() {
 
     const renderForms =()=>{
         setselectedAvatars(false);
-        setselectedButtons(false);
+        setSelectedButtons(false);
         setselectedCards(false);
         setselectedCharts(false);
         setselectedContainers(false);
@@ -169,7 +169,7 @@ function Uikit() {
 
     const renderInputs =()=>{
         setselectedAvatars(false);
-        setselectedButtons(false);
+        setSelectedButtons(false);
         setselectedCards(false);
         setselectedCharts(false);
         setselectedContainers(false);
@@ -189,7 +189,7 @@ function Uikit() {
 
     const renderMenus =()=>{
         setselectedAvatars(false);
-        setselectedButtons(false);
+        setSelectedButtons(false);
         setselectedCards(false);
         setselectedCharts(false);
         setselectedContainers(false);
@@ -209,7 +209,7 @@ function Uikit() {
 
     const renderModals =()=>{
         setselectedAvatars(false);
-        setselectedButtons(false);
+        setSelectedButtons(false);
         setselectedCards(false);
         setselectedCharts(false);
         setselectedContainers(false);
@@ -229,7 +229,7 @@ function Uikit() {
 
     const renderNavigations =()=>{
         setselectedAvatars(false);
-        setselectedButtons(false);
+        setSelectedButtons(false);
         setselectedCards(false);
         setselectedCharts(false);
         setselectedContainers(false);
@@ -249,7 +249,7 @@ function Uikit() {
 
     const renderNotifications =()=>{
         setselectedAvatars(false);
-        setselectedButtons(false);
+        setSelectedButtons(false);
         setselectedCards(false);
         setselectedCharts(false);
         setselectedContainers(false);
@@ -269,7 +269,7 @@ function Uikit() {
 
     const renderPagination =()=>{
         setselectedAvatars(false);
-        setselectedButtons(false);
+        setSelectedButtons(false);
         setselectedCards(false);
         setselectedCharts(false);
         setselectedContainers(false);
@@ -288,7 +288,7 @@ function Uikit() {
     } 
     const renderProgresses =()=>{
         setselectedAvatars(false);
-        setselectedButtons(false);
+        setSelectedButtons(false);
         setselectedCards(false);
         setselectedCharts(false);
         setselectedContainers(false);
@@ -308,7 +308,7 @@ function Uikit() {
 
     const renderScrolls =()=>{
         setselectedAvatars(false);
-        setselectedButtons(false);
+        setSelectedButtons(false);
         setselectedCards(false);
         setselectedCharts(false);
         setselectedContainers(false);
@@ -328,7 +328,7 @@ function Uikit() {
 
     const renderSpinners =()=>{
         setselectedAvatars(false);
-        setselectedButtons(false);
+        setSelectedButtons(false);
         setselectedCards(false);
         setselectedCharts(false);
         setselectedContainers(false);
@@ -348,7 +348,7 @@ function Uikit() {
 
     const renderTables =()=>{
         setselectedAvatars(false);
-        setselectedButtons(false);
+        setSelectedButtons(false);
         setselectedCards(false);
         setselectedCharts(false);
         setselectedContainers(false);
